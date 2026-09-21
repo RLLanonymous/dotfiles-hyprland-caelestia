@@ -1,0 +1,96 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": false,
+            "inverted": false,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": false,
+            "showDate": true,
+            "showIcon": false,
+            "showSeconds": false
+        },
+        "persistent": true,
+        "popouts": {
+            "tray": true
+        },
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": true,
+                "id": "microphone"
+            },
+            {
+                "enabled": true,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": false,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": false,
+                "id": "battery"
+            }
+        ],
+        "tray": {
+            "background": false,
+            "compact": true,
+            "recolour": false
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": false,
+            "perMonitor": true,
+            "showWindows": true,
+            "showWindowsOnSpecialWorkspaces": true,
+            "shown": 5
+        }
+    },
+    "dashboard": {
+        "showClockSeconds": true
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "nautilus",
+                "--new-window"
+            ],
+            "terminal": [
+                "kitty"
+            ]
+        }
+    },
+    "launcher": {
+        "enableDangerousActions": true,
+        "favouriteApps": [
+            "brave-origin",
+            "kitty",
+            "spotify",
+            "codium",
+            "org.gnome.Nautilus"
+        ]
+    }
+}
