@@ -84,6 +84,7 @@
         }
     },
     "launcher": {
+        "actionPrefix": ">",
         "enableDangerousActions": true,
         "favouriteApps": [
             "brave-origin",
@@ -91,6 +92,11 @@
             "spotify",
             "codium",
             "org.gnome.Nautilus"
-        ]
+        ],
+        "showOnHover": false,
+        "useFuzzy": {
+            "variants": false,
+            "wallpapers": false
+        }
     }
 }

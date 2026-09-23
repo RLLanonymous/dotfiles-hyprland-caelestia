@@ -1,9 +1,15 @@
---[[ l.config({
+--[[ hl.config({
 input = {
     kb_layout = "fr",
 }
 })
 ]]
+
+--[[ Set Cursor 
+hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Classic")
+hl.env("HYPRCURSOR_SIZE", "28")
+]]
+
 hl.monitor({
     output = "DP-1",
     disabled = false,
