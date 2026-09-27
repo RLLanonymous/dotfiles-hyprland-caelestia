@@ -5,7 +5,30 @@
         }
     },
     "background": {
-        "wallpaperEnabled": true
+        "wallpaperEnabled": true,
+        "desktopClock": {
+        "enabled": true,
+        "scale": 1.0,
+        "position": "top-right",
+        "background": {
+        "enabled": true,
+        "opacity": 0.6,
+        "blur": true
+      },
+      "shadow": {
+        "enabled": true,
+        "opacity": 0.5,
+        "blur": 0.5
+      }
+    },
+    "visualiser": {
+      "enabled": true,
+      "autoHide": true,
+      "blur": false,
+      "rounding": 1,
+      "spacing": 1
+    }
+      
     },
     "bar": {
         "activeWindow": {
