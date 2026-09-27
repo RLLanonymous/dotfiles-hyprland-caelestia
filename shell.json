@@ -56,7 +56,7 @@
         "tray": {
             "background": false,
             "compact": true,
-            "recolour": false
+            "recolour": true
         },
         "workspaces": {
             "activeIndicator": true,
@@ -79,7 +79,7 @@
                 "--new-window"
             ],
             "terminal": [
-                "kitty"
+                "foot"
             ]
         }
     },
@@ -97,6 +97,14 @@
         "useFuzzy": {
             "variants": false,
             "wallpapers": false
+        }
+    },
+    "notifs": {
+        "fullscreen": "Off"
+    },
+    "utilities": {
+        "toasts": {
+            "nowPlaying": true
         }
     }
 }
