@@ -10,6 +10,15 @@ hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Classic")
 hl.env("HYPRCURSOR_SIZE", "28")
 ]]
 
+hl.config({
+    input = {
+        accel_profile = "flat",
+        kb_layout = "fr,us",
+        numlock_by_default = false,
+        sensitivity = 0.25,
+    },
+})
+
 hl.monitor({
     output = "DP-1",
     disabled = false,
@@ -26,6 +35,5 @@ hl.monitor({
     scale = 1,
     mirror = "DP-1",
 })
-
--- HyprMod Config
-require("hyprland-gui")
+-- FlightDeck managed settings
+dofile(os.getenv("HOME") .. "/.config/caelestia/astra-flightdeck.lua")
